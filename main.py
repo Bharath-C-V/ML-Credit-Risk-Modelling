@@ -8,7 +8,8 @@ st.title("BCV Finance: Credit Risk Modelling")
 page_bg = """
 <style>
 body {
-    background-color: #f0f0f5;
+    background-color: black;
+    color: white;
 }
 </style>
 """
