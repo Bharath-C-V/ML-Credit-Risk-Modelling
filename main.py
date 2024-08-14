@@ -13,7 +13,7 @@ page_bg = """
     }
     /* Ensure text is visible on black background */
     h1, h2, h3, h4, h5, h6, p, div, span, label {
-        color: white;
+        color: black;
     }
 </style>
 """
