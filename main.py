@@ -7,10 +7,14 @@ st.title("BCV Finance: Credit Risk Modelling")
 
 page_bg = """
 <style>
-body {
-    background-color: black;
-    color: white;
-}
+    /* Adjust the background color of the main content */
+    .stApp {
+        background-color: black;
+    }
+    /* Ensure text is visible on black background */
+    h1, h2, h3, h4, h5, h6, p, div, span, label {
+        color: white;
+    }
 </style>
 """
 
