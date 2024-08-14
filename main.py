@@ -5,6 +5,16 @@ from prediction import predict
 st.set_page_config(page_title="BCV Finance: Credit Risk Modelling", page_icon="📊")
 st.title("BCV Finance: Credit Risk Modelling")
 
+page_bg = """
+<style>
+body {
+    background-color: #f0f0f5;
+}
+</style>
+"""
+
+st.markdown(page_bg, unsafe_allow_html=True)
+
 # Create rows of three columns each
 row1 = st.columns(3)
 row2 = st.columns(3)
